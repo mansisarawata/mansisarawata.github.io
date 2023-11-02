@@ -2,7 +2,7 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
+subtitle: <a href='https://theairlab.org/'>Graduate Student Researcher</a>. Carneige Mellon University 
 
 profile:
   align: right
