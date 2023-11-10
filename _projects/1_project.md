@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Single View Scene Generation
-description: a project with a background image
+description: Single-image-to-NeRF predictions
 img: assets/img/video_nerf.gif
 importance: 1
 category: Robotics
