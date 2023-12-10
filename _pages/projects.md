@@ -5,7 +5,7 @@ permalink: /projects/
 description: A growing collection of your cool projects.
 nav: true
 nav_order: 2
-display_categories: [Robotics, fun]
+display_categories: [3D, SLAM & Perception, Controls]
 horizontal: false
 ---
 
@@ -20,16 +20,16 @@ horizontal: false
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row row-cols-2">
+    <div class="row row-cols-1">
     {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
+      {% include projects.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
-  <div class="grid">
+  <div class="row row-cols-1">
     {%- for project in sorted_projects -%}
-      {% include projects.html %}
+      {% include projects_horizontal.html %}
     {%- endfor %}
   </div>
   {%- endif -%}
@@ -41,16 +41,16 @@ horizontal: false
   <!-- Generate cards for each project -->
   {% if page.horizontal -%}
   <div class="container">
-    <div class="row row-cols-2">
+    <div class="row row-cols-1">
     {%- for project in sorted_projects -%}
-      {% include projects_horizontal.html %}
+      {% include projects.html %}
     {%- endfor %}
     </div>
   </div>
   {%- else -%}
-  <div class="grid">
+  <div class="row row-cols-1">
     {%- for project in sorted_projects -%}
-      {% include projects.html %}
+      {% include projects_horizontal.html %}
     {%- endfor %}
   </div>
   {%- endif -%}

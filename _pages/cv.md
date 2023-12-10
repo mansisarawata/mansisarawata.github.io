@@ -1,6 +1,6 @@
 ---
 layout: cv
-permalink: /cv/
+permalink: /files/Mansi_Sarawata_Resume.pdf
 title: CV
 nav: true
 nav_order: 4

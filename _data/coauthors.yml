@@ -2,8 +2,8 @@
   - firstname: ["Edwin", "E.", "E. P.", "Edwin Plimpton"]
     url: https://en.wikipedia.org/wiki/Edwin_Plimpton_Adams
 
-"Podolsky":
-  - firstname: ["Boris", "B.", "B. Y.", "Boris Yakovlevich"]
+"Single":
+  - firstname: ["View"]
     url: https://en.wikipedia.org/wiki/Boris_Podolsky
 
 "Rosen":
@@ -21,9 +21,9 @@
   - firstname: ["Karl"]
     url: https://link.springer.com/article/10.1007/s00016-019-00242-z
 
-"Schrödinger":
-  - firstname: ["Erwin"]
-    url: https://en.wikipedia.org/wiki/Erwin_Schr%C3%B6dinger
+"View":
+  - firstname: ["Single"]
+    url: https://theairlab.org/
 
 "Lorentz":
   - firstname: ["Hendrik Antoon"]

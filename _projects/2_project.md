@@ -4,7 +4,7 @@ title: Resilient Bicopter Control
 description: H ∞ loop shaping, H 2 optimal controller & H ∞ optimal controller.
 img: assets/img/bicopter.jpg
 importance: 2
-category: Robotics
+category: Controls
 # giscus_comments: true
 ---
 
