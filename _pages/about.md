@@ -2,7 +2,7 @@
 layout: about
 title: About
 permalink: /
-subtitle: <a href='https://theairlab.org/'>Graduate Student Researcher</a> | Carnegie Mellon University 
+subtitle: <a href='https://theairlab.org/'>Graduate Student Researcher</a> | AirLab | Carnegie Mellon University 
 
 profile:
   align: right
