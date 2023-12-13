@@ -2,9 +2,9 @@
 layout: page
 title: Projects
 permalink: /projects/
-description: Welcome to my makespace!
+description: Welcome to my makespace! Warning- this page is still under construction. Stay tuned for more projects!
 nav: true
-nav_order: 2
+nav_order: 1
 display_categories: [3D, SLAM & Perception, Controls]
 horizontal: false
 ---

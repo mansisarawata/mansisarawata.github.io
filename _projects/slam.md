@@ -1,11 +1,10 @@
 ---
 layout: page
-title: project 3
+title: Advancing Dynamic Visual-Inertial Slam through Bundle Adjustment
 description: a project that redirects to another website
-img: assets/img/7.jpg
-redirect: https://unsplash.com
+img: assets/img/slam.gif
 importance: 3
-category: work
+category: SLAM & Perception
 ---
 
 Every project has a beautiful feature showcase page.

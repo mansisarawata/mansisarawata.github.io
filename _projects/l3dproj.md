@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Single View Scene Generation
-description: In this project I am exploring Single View Scene Generation through Individual Object Reconstruction. I delved into advanced techniques for 3D learning employing YOLOvS and SAM for object detection, CubeRCNN for 3D pose estimation, PixelNeRF, and Vision Transformer for single-image-to-NeRF predictions, and iNeRF for 3D object localization, this approach aimed at reconstructing detailed 3D scenes from a single image.
+description: This project explores Single View Scene Generation through Individual Object Reconstruction. It delves into advanced techniques for 3D learning employing YOLOvS and SAM for object detection, CubeRCNN for 3D pose estimation, PixelNeRF, and Vision Transformer for single-image-to-NeRF predictions, and iNeRF for 3D object localization. This approach aims at reconstructing detailed 3D scenes from a single image.
 img: assets/img/video_nerf.gif
 importance: 1
 category: 3D
