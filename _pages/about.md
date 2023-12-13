@@ -19,27 +19,16 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi There!!! If you are looking for one Mansi Sarawata; you are at the right page!
+Hi There!!! If you are looking for one Mansi Sarawata; you are at the right page! :-P
 
-BUTTTTTTTTTTTTTTTTTTTTTTTTTT
+I am currently pursuing a Master of Science in Mechanical Engineering - Research with a focus on **Robotics** at CMU, where I am advised by <a href='https://theairlab.org/team/sebastian/'>Sebastian Scherer</a> at AirLab. My current research endeavors revolve around Simultaneous Localization and Mapping (SLAM) for autonomous agents, as well as 3D reconstructions.
 
-<!-- <img src="/assets/img/2.jpg" width =500> -->
+I graduated from the <a href='https://www.iitkgp.ac.in/'>Indian Institute of Technology, Kharagpur (IIT Kharagpur)</a> in 2022, attaining a Bachelor's (with Honors) in Mechanical Engineering. I successfully defended my bachelor’s thesis on Fuzzy Logic-based PID controllers for quadrupeds, conducting research under <a href='https://www.iitkgp.ac.in/department/ME/faculty/me-dkpra'>Prof. D.K. Pratihar</a> at <a href='https://sites.google.com/site/softcomputinglaboratory/home'>Soft Computing Lab</a>.
 
-Unfortunately this website is under construction stilllllllll!! :-((
-
-
-So beware of any broken links or weird stuff.
+As an aspiring professional, I am actively seeking full time opportunities starting May 2024 for Software/Research Engineering roles in SLAM, Perception, and 3D Vision. Feel free to explore my projects page and the exciting world of robotics.
 
 
-<!-- 
-
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
-
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
-
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
-
-My never ending family includes:
+My never-ending family, to which I am forever indebted, includes:
 
 
 <div class="row">
