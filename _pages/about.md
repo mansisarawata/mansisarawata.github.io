@@ -58,4 +58,7 @@ My never ending family includes:
     <div class="col-sm mt-3 mt-md-0">
         <a href="https://www.ecell-iitkgp.org/">{% include figure.html path="assets/img/ecell.png" title="Entrepreneurship Cell,IIT KGP" class="img-fluid rounded z-depth-1" %}</a>
     </div>
+    <div class="col-sm mt-3 mt-md-0">
+        <a href="https://www.facebook.com/ChessClubIITKGP/">{% include figure.html path="assets/img/cc.png" title="Chess Club,IIT KGP" class="img-fluid rounded z-depth-1" %}</a>
+    </div>
 </div>
