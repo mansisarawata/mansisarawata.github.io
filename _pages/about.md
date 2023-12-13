@@ -53,7 +53,7 @@ My never ending family includes:
         <a href="https://www.cmu.edu/">{% include figure.html path="assets/img/cmu_icon.png" title="CMU" class="img-fluid rounded z-depth-1" %}</a>
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        <a href="https://www.iitkgp.ac.in/">{% include figure.html path="assets/img/iitkgplogo.png" title="IIT KGP" class="img-fluid rounded z-depth-1" %}</a>
+        <a href="https://www.iitkgp.ac.in/">{% include figure.html path="assets/img/iitkgplogo.png" title="IIT Kharagpur" class="img-fluid rounded z-depth-1" %}</a>
     </div>
     <div class="col-sm mt-3 mt-md-0">
         <a href="https://www.ecell-iitkgp.org/">{% include figure.html path="assets/img/ecell.png" title="Entrepreneurship Cell,IIT KGP" class="img-fluid rounded z-depth-1" %}</a>
