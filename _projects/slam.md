@@ -15,6 +15,14 @@ The paper emphasizes the need for these adjustments when dealing with dynamic ob
 
 The final Bundle Adjustment formulation incorporates both the regularization and weight momentum factors, presenting a comprehensive strategy to address the challenges associated with outliers in VI-SLAM. The major takeaways include the comparative performance analysis of the conventional BA switched into the DynaVINS framework and the justification for utilizing the Huber loss. The robust BA strategy with weights demonstrates its efficacy in avoiding dynamic obstacles, showcasing the importance of these factors in improving VI-SLAM performance.
 
-<img src="assets/img/slam1.gif">
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/slam1.gif" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This image can also have a caption. It's like magic.
+</div>
+
 
 
