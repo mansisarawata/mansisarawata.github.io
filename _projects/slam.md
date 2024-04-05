@@ -39,7 +39,7 @@ A comparative analysis between traditional VINS-Fusion and DynaVINS demonstrates
 
 The study showcases the potential of DynaVINS in advancing dynamic SLAM capabilities through bundle adjustment techniques. Despite challenges, the research provides valuable insights into enhancing SLAM performance in dynamic environments.
 
-Code and further details are available at the provided GitHub repository.
+Code and further details are available at the provided at <a ref="https://github.com/mansisarawata/dynaVINS_16833"> GitHub repository </a>.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/slam1.gif" title="" class="img-fluid rounded z-depth-1" %}
