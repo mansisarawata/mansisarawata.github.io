@@ -7,14 +7,39 @@ importance: 3
 category: SLAM & Perception
 ---
 
-The DynaVINS pipeline's BA formulation is expressed as a minimization problem, addressing residuals for marginalization, IMU, and visual reprojection measurements. It utilizes the Huber loss, a balanced approach that mitigates sensitivity to outliers in regression problems. The effectiveness of the Huber loss is discussed in scenarios with varying proportions of outliers, highlighting its robustness but acknowledging limitations in the presence of a high ratio of outliers.
+Visual-inertial SLAM (Simultaneous Localization and Mapping) techniques are crucial for robotics, UAVs, and autonomous vehicles. However, the assumption of static landmarks in most SLAM algorithms poses challenges for accurate localization in dynamic environments. To address this, DynaVINS framework offers a solution specifically designed for dynamic SLAM by integrating bundle adjustment techniques.
 
-To address challenges associated with outliers, the BA method introduces a two-step process involving a regularization factor leveraging IMU preintegration and a momentum factor considering the previous state of each weight. A novel loss term inspired by B-R duality is introduced to reject outlier features while robustly estimating poses. This regularization factor, along with a weight momentum factor, aims to mitigate the impact of features with high reprojection errors.
+The study aims to comprehensively examine the bundle adjustment (BA) module within the DynaVINS pipeline to enhance understanding and proficiency in fine-tuning BA methodologies. The objective is to improve the accuracy and reliability of visual-inertial SLAM systems in dynamic scenarios.
 
-The paper emphasizes the need for these adjustments when dealing with dynamic objects and aggressive motion. It introduces a regularization factor inspired by B-R duality to reject outlier features while robustly estimating poses. Additionally, a weight momentum factor is introduced to make previously estimated feature weights unaffected by aggressive motion.
+DynaVINS employs bundle adjustment along with IMU preintegration, feature tracking, keyframe grouping, and multi-hypothesis-based constraints grouping to handle dynamic scenes effectively. However, conventional BA formulations face challenges in robustly estimating poses and landmarks in the presence of dynamic objects.
 
-The final Bundle Adjustment formulation incorporates both the regularization and weight momentum factors, presenting a comprehensive strategy to address the challenges associated with outliers in VI-SLAM. The major takeaways include the comparative performance analysis of the conventional BA switched into the DynaVINS framework and the justification for utilizing the Huber loss. The robust BA strategy with weights demonstrates its efficacy in avoiding dynamic obstacles, showcasing the importance of these factors in improving VI-SLAM performance.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/dynapipe.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
+The study first establishes a baseline with conventional bundle adjustment. Then, it introduces modifications inspired by DynaVINS and DynamSLAM, including regularization and weight momentum factors. The modified Huber loss function from DynamSLAM is also explored. The VIODE dataset is used for experiments, particularly focusing on the parking lot environment with varying levels of dynamic obstacles.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/dyna_con.gif" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+A comparative analysis between traditional VINS-Fusion and DynaVINS demonstrates the latter's superior performance in trajectory accuracy, especially in scenarios with high dynamic object density. Sensitivity analysis of different loss functions shows DynaVINS' resilience across all functions compared to VINS-Fusion. However, challenges in implementing DynamSLAM hindered its evaluation, emphasizing the complexities in integrating such methods.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/loss_study.png" title="" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+
+The study showcases the potential of DynaVINS in advancing dynamic SLAM capabilities through bundle adjustment techniques. Despite challenges, the research provides valuable insights into enhancing SLAM performance in dynamic environments.
+
+Code and further details are available at the provided GitHub repository.
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/slam1.gif" title="" class="img-fluid rounded z-depth-1" %}
