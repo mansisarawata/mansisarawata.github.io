@@ -21,7 +21,7 @@ The final Bundle Adjustment formulation incorporates both the regularization and
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    DynaVINS performance with and without Bundle Adjustment. Blue represents DynaVINS with BA whereas Red represents without BA.
 </div>
 
 
